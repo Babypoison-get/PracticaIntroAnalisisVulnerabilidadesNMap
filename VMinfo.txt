@@ -1,0 +1,22 @@
+TurnkeyWordpress VM
+TurnKey Core with Wordpress
+User: root
+Password: 123Root!
+MySQL
+  User: adminer
+  Password: 123Root!
+Wordpress
+  User: admin
+  Password: 123Root!
+IP address: 10.0.0.2/24
+
+Kali VM
+Kali Linux 2020.3
+User: bbpoison
+Password: babypoison
+eth0
+  Internal network
+  IP address: 10.0.0.1/24
+eth1
+  Bridged
+  IP address: DHCP assigned
