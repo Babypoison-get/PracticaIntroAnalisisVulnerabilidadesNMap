@@ -1,5 +1,5 @@
 TurnkeyWordpress VM
-TurnKey Core with Wordpress
+TurnKey Core with WordPress
 User: root
 Password: 123Root!
 MySQL
